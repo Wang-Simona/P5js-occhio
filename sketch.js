@@ -28,7 +28,7 @@ function draw() {
   
   let d = dist(mouseX,mouseY,width/2,height/2) //距离
   let s = (400-0.1*d)/400 //和距离比例，越远，越小
-  let a = map(d,0,400,1,0.8) //1-0.9是映射范围：既d的值，即鼠标到眼球中心的距离
+  let a = map(d,0,400,1,0.8)  //1-0.9是映射范围：既d的值，即鼠标到眼球中心的距离
       // map是映射，即等比例放缩，有一一对应的点,值越小，放缩越大
   let offsetX = map(mouseX,0,width,-10,10)
   let offsetY = map(mouseY,0,height,-10,10)
